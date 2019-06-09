@@ -1,0 +1,63 @@
+.about{
+	width: 50vw;
+	display: inline-block;
+}
+
+.clear{
+	clear: both;
+}
+
+#sb-image{
+	width: 40vw;
+	max-width: 350px;
+	min-width: 305px;
+}
+@media only screen and (min-width: 768px) {
+	#sb-image{
+		float: right;
+	}
+
+	.workshop-image{
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.vertical{
+		display: none;
+	}
+}
+
+.head-cards{
+	width: 50%;
+}
+
+.workshop-image{
+	width: 20vw;
+	/*My preference*/
+	border-radius: 5px;
+	min-width: 170px;
+}
+
+.carousel-image{
+	width: 25vw;
+	margin: auto;
+}
+
+/*create vertical rule*/
+.vertical{
+	border-left: 2px solid #ebebeb;
+	  height: 200px;
+	  /*margin-left: 2px;*/
+	  left: 50%;
+	  position: absolute;
+	  margin: auto;
+}
+
+.center{
+ 	text-align: center;
+ }
+
+ .right{
+ 	text-align: right;
+ }
