@@ -48,7 +48,6 @@ html {
 }
 
 #division-1{
-  width: 100%;
   text-align: center;
   box-shadow: 5px 3px 6px 0;
   background-color: #ed1c24;
@@ -63,6 +62,31 @@ html {
 	font-weight: 600;
 	line-height: 50px;
 	font-size: 1.5rem;
+	/*z-index: 2;*/
+}
+
+.progress-container{
+	height: 1400px;
+    width: 3px;
+    border: 1px solid red;
+    z-index: -1;
+    position: absolute;
+    margin-left: 15vw;
+    margin-right: 0;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#progress-image{
+	position: fixed;
+	z-index: 2;
+	top:550px;
+	/*bottom: 100px;*/
+	left: 20vw;
+	-ms-transform: rotate(90deg); /* IE 9 */
+  	-webkit-transform: rotate(90deg); /* Safari 3-8 */
+  	transform: rotate(90deg);
+  	width: 100px;
 }
 
 #benefit-list-header{
